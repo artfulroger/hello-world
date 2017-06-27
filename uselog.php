@@ -1,5 +1,8 @@
 <?php
   class uselog extends db {
+	  /*
+	  Adding a comment to test sync
+	  */
 
     public function __construct(
 	  $id			= null, 
