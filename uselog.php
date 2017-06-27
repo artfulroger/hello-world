@@ -14,13 +14,13 @@
       parent::__construct();
       $this->table_name = "uselog";
       if($id == null){
-		$this->vars["date_time"] 	 = $date_time; 
-		$this->vars["action"]		 = $action; 
-		$this->vars["last_name"]	 = $last_name; 
-		$this->vars["first_name"]	 = $first_name;	
-		$this->vars["mem_id"]		 = $mem_id;  
-		$this->vars["useragent"]	 = $useragent;
-		$this->vars["ipaddress"]	 = $ipaddress;  		
+	$this->vars["date_time"] 	 = $date_time; 
+	$this->vars["action"]		 = $action; 
+	$this->vars["last_name"]	 = $last_name; 
+	$this->vars["first_name"]	 = $first_name;	
+	$this->vars["mem_id"]		 = $mem_id;  
+	$this->vars["useragent"]	 = $useragent;
+	$this->vars["ipaddress"]	 = $ipaddress;  		
       }else{
         //$this->vars["id"]=$id;
         $this->load($id, "id");
